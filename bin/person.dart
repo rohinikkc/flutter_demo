@@ -1,4 +1,4 @@
-class person{
+class Person{
   String name='krishna';
   int age=5;
   void printDetails(){

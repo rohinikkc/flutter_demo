@@ -1,6 +1,6 @@
 import 'dart:ffi';
 
-class rectangle {
+class Rectangle {
   int length=3;
   int width =4;
   int calculateArea()

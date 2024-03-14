@@ -3,12 +3,26 @@
 import 'dart:io';
 
 import 'amstong.dart';
+import 'bank.dart';
 import 'calculator.dart';
+import 'dec.dart';
+import 'email.dart';
 import 'factorial_num.dart';
 import 'gcd.dart';
+import 'house.dart';
+import 'inheritance.dart';
+import 'laptop.dart';
 import 'leapyear.dart';
+import 'nthfib.dart';
 import 'palindrome.dart';
 import 'person.dart';
+import 'primeno.dart';
+import 'range.dart';
+import 'revlist.dart';
+import 'shape.dart';
+import 'swap.dart';
+import 'vehicle.dart';
+import 'vowel.dart';
 
 void main() {
   
@@ -20,11 +34,47 @@ void main() {
 //gcd();
 //gcd_given();
 //leapyear();
+//primeno();
+//vowel();
+//swap();
+//email();
+//revlist();
+//decimal();
+//range();
+//fibnocci();
 //person obj=person();
 //obj.printDetails();
-rectangle obj=rectangle();
-print(obj.calculateArea());
-print(obj.calculatePerimeter());
-
-
+//rectangle obj=rectangle();
+//print(obj.calculateArea());
+//print(obj.calculatePerimeter());
+//Maruti obj=Maruti();
+//obj.color="red";
+//obj.move();
+//Laptop l1=Laptop();
+//print(l1.id);
+//print(l1.name);
+//print(l1.ram);
+ //House h1 = House(1, "House 1", 100000);
+ //House h2 = House(2, "House 2", 150000);
+ //House h3 = House(3, "House 3", 200000);
+//Car c1=Car();
+//c1.make="honda";
+//c1.model="civic";
+//c1.year=2020;
+//c1.numdoors=4;
+//c1.displayinfo();
+//Truck t1=Truck();
+//t1.make="ford";
+//t1.model="F_150";
+//t1.year=2019;
+//t1.bedlength="6.5 feet";
+//t1.displayinfo();
+//Bank b=Bank(125871,"roh");
+//b.deposit();
+//b.withdraw();
+//b.getbalance();
+//Rect r1=Rect ();
+// r1.calculateArea(3,5);
+// Circle c2=Circle();
+// c2.calculateArea(5, 0);
 }
